@@ -1,0 +1,12 @@
+# Entornos virtuales y caché
+venv/
+__pycache__/
+.pytest_cache/
+
+# Variables de entorno (¡Muy importante!)
+.env
+
+# Datos locales de las bases de datos
+storage/curated/chroma_db/
+minio_data/
+pg_data/
